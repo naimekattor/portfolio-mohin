@@ -3,6 +3,7 @@ import React from "react";
 import { SiFiverr } from "react-icons/si";
 import { Marquee } from "./magicui/marquee";
 import { FaStar } from "react-icons/fa";
+import Image from "next/image";
 
 const reviews = [
   {
@@ -71,7 +72,9 @@ const ReviewCard: React.FC<ReviewProps> = ({ img, name, username, body }) => {
 
       {/* Author */}
       <div className="flex items-center gap-3">
-        <img
+        <Image
+          width={48}
+          height={48}
           src={img}
           alt={name}
           className="w-12 h-12 rounded-full border border-gray-700"

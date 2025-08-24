@@ -1,6 +1,5 @@
 "use client";
 
-import { usePathname } from "next/navigation";
 import Header from "@/components/site-header";
 import Footer from "./site-footer";
 

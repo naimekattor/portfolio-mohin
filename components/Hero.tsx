@@ -1,5 +1,6 @@
 import React from "react";
 import AnimatedText from "./gsap/AnimatedText";
+import Image from "next/image";
 
 const Hero = () => {
   const verticalLines = Array.from({ length: 20 }, (_, i) => (i + 1) * 5);
@@ -112,7 +113,9 @@ const Hero = () => {
         {/* Right side */}
         <div className="flex-1 relative group flex justify-center">
           <div className="overflow-hidden rounded-2xl relative w-full max-w-md">
-            <img
+            <Image
+              width={400}
+              height={600}
               src="https://i.ibb.co/YFYx68TT/1723117614965-psd-new.png"
               alt="Gazi Alauddin - Tech Entrepreneur & CEO"
               className="relative mb-20 z-10 object-contain w-full mx-auto"

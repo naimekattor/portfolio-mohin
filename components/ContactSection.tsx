@@ -1,4 +1,5 @@
 import { Mail } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 import { FaTelegram, FaWhatsapp } from "react-icons/fa";
 
@@ -7,7 +8,9 @@ const ContactSection = () => {
     <div id="contact" className="relative w-full min-h-screen">
       {/* Background Image */}
       <div className="absolute inset-0 -z-20">
-        <img
+        <Image
+          width={1080}
+          height={1080}
           src="/images/mesh-objects-desktop.avif"
           alt="background image"
           className="w-full h-full object-cover"
@@ -23,7 +26,7 @@ const ContactSection = () => {
         <div className="flex flex-col justify-center lg:justify-between gap-8 lg:gap-12 lg:flex-1 text-white">
           <h1 className="text-4xl sm:text-6xl lg:text-8xl xl:text-9xl font-black leading-tight">
             Ready? <br />
-            <span className="">Let's Talk</span>
+            <span className="">Let&apos;s Talk</span>
           </h1>
 
           {/* Contact Info + Socials */}
@@ -83,7 +86,7 @@ const ContactSection = () => {
             {/* Step Info */}
             <div className="flex flex-col gap-4">
               <h2 className="text-2xl lg:text-3xl xl:text-4xl font-bold leading-tight">
-                Share your contact info, and we'll get in touch.
+                Share your contact info, and we&apos;ll get in touch.
               </h2>
             </div>
 
