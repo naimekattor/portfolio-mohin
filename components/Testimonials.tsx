@@ -10,37 +10,37 @@ const reviews = [
     name: "Jack",
     username: "@jack",
     body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://i.ibb.co.com/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
+    img: "https://i.ibb.co/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
   },
   {
     name: "Jill",
     username: "@jill",
     body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://i.ibb.co.com/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
+    img: "https://i.ibb.co/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
   },
   {
     name: "John",
     username: "@john",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://i.ibb.co.com/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
+    img: "https://i.ibb.co/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
   },
   {
     name: "Jane",
     username: "@jane",
     body: "The quality is beyond expectations. Would highly recommend.",
-    img: "https://i.ibb.co.com/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
+    img: "https://i.ibb.co/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
   },
   {
     name: "Jenny",
     username: "@jenny",
     body: "Amazing work! Great communication and fast delivery.",
-    img: "https://i.ibb.co.com/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
+    img: "https://i.ibb.co/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
   },
   {
     name: "James",
     username: "@james",
     body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://i.ibb.co.com/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
+    img: "https://i.ibb.co/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
   },
 ];
 
