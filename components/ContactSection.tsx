@@ -1,7 +1,7 @@
 import { Mail } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-import { FaTelegram, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const ContactSection = () => {
   return (
@@ -38,14 +38,14 @@ const ContactSection = () => {
                 className="underline underline-offset-4 text-white hover:text-primary transition-colors"
                 href="mailto:team@aconite.io"
               >
-                team@mohin.io
+                miintminii@gmail.com
               </a>
             </span>
 
             {/* Social Icons */}
             <div className="flex flex-row gap-3 items-center">
               {/* Telegram */}
-              <a
+              {/* <a
                 className="flex items-center justify-center size-[48px] lg:size-[54px] bg-white/10 hover:bg-primary rounded-full transition-all duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,17 +53,17 @@ const ContactSection = () => {
                 aria-label="Contact us on Telegram"
               >
                 <FaTelegram className="w-5 h-5" />
-              </a>
+              </a> */}
 
               {/* WhatsApp */}
               <a
                 className="flex items-center justify-center size-[48px] lg:size-[54px] bg-white/10 hover:bg-primary rounded-full transition-all duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://wa.me/message/"
-                aria-label="Contact us on WhatsApp"
+                href="https://www.linkedin.com/in/mohin-uddin00/"
+                aria-label="Contact us on LinkedIn "
               >
-                <FaWhatsapp className="w-5 h-5" />
+                <FaLinkedin className="w-5 h-5" />
               </a>
 
               {/* Email */}
@@ -71,7 +71,7 @@ const ContactSection = () => {
                 className="flex items-center justify-center size-[48px] lg:size-[54px] bg-white/10 hover:bg-primary rounded-full transition-all duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="mailto:team@mohin.com"
+                href="mailto:miintminii@gmail.com"
                 aria-label="Send us an email"
               >
                 <Mail className="w-5 h-5" />

@@ -102,9 +102,9 @@ const About: React.FC = () => {
             className="relative flex flex-col items-center p-6 bg-white text-black rounded-2xl shadow-xl transition-transform transform hover:scale-105"
           >
             <div className="text-5xl font-extrabold text-[#0f7238]  mb-2">
-              <Counter from={0} to={97} inView={inView1} suffix="%" />
+              <Counter from={0} to={100} inView={inView1} suffix="%" />
             </div>
-            <h2 className="text-lg font-bold mb-1">Client Retention</h2>
+            <h2 className="text-lg font-bold mb-1">Client Satisfaction</h2>
           </div>
 
           <div
@@ -112,7 +112,7 @@ const About: React.FC = () => {
             className="relative flex flex-col items-center p-6 bg-white text-black rounded-2xl shadow-xl transition-transform transform hover:scale-105"
           >
             <div className="text-5xl font-extrabold text-[#0f7238]  mb-2">
-              <Counter from={0} to={200} inView={inView2} suffix="+" />
+              <Counter from={0} to={362} inView={inView2} suffix="+" />
             </div>
             <h2 className="text-lg font-bold mb-1">Projects Completed</h2>
           </div>
@@ -122,7 +122,7 @@ const About: React.FC = () => {
             className="relative flex flex-col items-center p-6 bg-white text-black rounded-2xl shadow-xl transition-transform transform hover:scale-105"
           >
             <div className="text-5xl font-extrabold text-[#0f7238]  mb-2">
-              <Counter from={0} to={10} inView={inView3} suffix="K+" />
+              <Counter from={0} to={5} inView={inView3} suffix="+" />
             </div>
             <h2 className="text-lg font-bold mb-1">Years Experience</h2>
           </div>

@@ -116,7 +116,7 @@ const Hero = () => {
             <Image
               width={400}
               height={600}
-              src="https://i.ibb.co/YFYx68TT/1723117614965-psd-new.png"
+              src="https://i.ibb.co.com/XkFbQQxy/mohin-removebg-preview.png"
               alt="Gazi Alauddin - Tech Entrepreneur & CEO"
               className="relative mb-20 z-10 object-contain w-full mx-auto"
             />

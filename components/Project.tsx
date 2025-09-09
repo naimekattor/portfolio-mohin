@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React, { useRef } from "react";
 
 interface ProjectType {
@@ -6,6 +7,7 @@ interface ProjectType {
   description: string;
   tags: string[];
   videoSrc: string;
+  imgSrc: string;
   href: string;
 }
 
@@ -14,6 +16,7 @@ const ProjectCard: React.FC<ProjectType> = ({
   description,
   tags,
   videoSrc,
+  imgSrc,
   href,
 }) => {
   const videoRef = useRef<HTMLVideoElement | null>(null);
@@ -27,7 +30,7 @@ const ProjectCard: React.FC<ProjectType> = ({
         onMouseLeave={() => videoRef.current?.pause()}
       >
         <div className="bg-gradient-to-b from-[#1A1A1A] to-[#080808] p-px rounded-2xl overflow-hidden">
-          <video
+          {/* <video
             ref={videoRef}
             className="w-full rounded-t-2xl"
             muted
@@ -36,7 +39,13 @@ const ProjectCard: React.FC<ProjectType> = ({
           >
             <source src={videoSrc} type="video/mp4" />
             Your browser does not support the video tag
-          </video>
+          </video> */}
+          <Image
+            src={imgSrc}
+            width={1000}
+            height={1000}
+            alt="Bowlers Network"
+          />
         </div>
 
         <div className="p-6 relative z-10">
@@ -67,36 +76,41 @@ const ProjectCard: React.FC<ProjectType> = ({
 const Project: React.FC = () => {
   const projects: ProjectType[] = [
     {
-      title: "Break A Leg",
+      title: "Bowlers Network",
       description:
-        "Building a vibrant website that connects audiences with live theatre shows—making culture more accessible and engaging.",
-      tags: ["UX/UI Design", "Development"],
+        "A platform for bowling enthusiasts: track performance, get expert coaching, exclusive content, and join a vibrant community.",
+      tags: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
       videoSrc: "/videos/break-a-leg-intro.mp4",
-      href: "/en/work/break-a-leg",
+      imgSrc: "https://i.ibb.co/B5cgPSDc/Frame-48.png",
+      href: "https://bowler-website-5j7q.vercel.app/",
     },
     {
-      title: "Black friday by Intellect",
+      title: "Poop Alert",
       description:
-        "Launching a bold campaign that drives engagement and sales—bringing exclusive Black Friday offers to the spotlight.",
-      tags: ["UX/UI Design", "Development"],
+        "A fun soundboard app with hilarious, toilet-themed sound effects for pranks and laughs.",
+      tags: ["Python", "React", "TensorFlow", "PostgreSQL", "D3.js"],
       videoSrc: "/videos/break-a-leg-intro.mp4",
-      href: "/en/work/intellect-black-friday",
+      imgSrc: "https://i.ibb.co/CKBnk1sm/Frame-49.png",
+      href: "https://poop-alert.com/",
     },
     {
-      title: "Pay Forward Foundation",
+      title: "MED WORLD",
       description:
-        "Creating a clean and confident digital presence that reflects Pay Forward's mission.",
-      tags: ["UX/UI Design", "Development"],
+        "A mobile app to help users manage and track their health information.",
+      tags: ["React Native", "Firebase", "Redux", "Node.js"],
       videoSrc: "/videos/break-a-leg-intro.mp4",
-      href: "/en/work/begood",
+      imgSrc: "https://i.ibb.co/Nn77JHWC/MED-WORLD.jpg",
+      href: "https://mathaidetectives.com/",
     },
     {
-      title: "Compliance Navi",
+      title: "Math Detectives",
       description:
-        "Designing a clear, trustworthy website that helps businesses navigate AML and compliance with confidence and ease.",
-      tags: ["UX/UI Design", "Development"],
+        "AI-powered math education platform with a smart tutoring chatbot and instant feedback.",
+      tags: ["React Native", "Firebase", "Redux", "Node.js"],
       videoSrc: "/videos/break-a-leg-intro.mp4",
-      href: "/en/work/compliance-navi",
+      imgSrc:
+        "https://i.ibb.co/CpD9bYxj/Whats-App-Image-2025-07-30-at-2-57-14-PM-1.jpg",
+      href: "https://mathaidetectives.com/",
     },
   ];
 

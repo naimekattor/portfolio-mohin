@@ -134,6 +134,9 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  cursor: none;
+}
 
 @layer base {
   * {
@@ -166,4 +169,7 @@ html {
   stroke-dasharray: 10 20;
   stroke-dashoffset: 0;
   animation: moveHorizontal 2s linear infinite;
+}
+.animated-cursor {
+  z-index: 9999 !important;
 }

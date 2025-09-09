@@ -45,7 +45,7 @@ export default function Header() {
           </Link>
         </nav>
 
-        <div className=" ">
+        <div className=" md:hidden block">
           <button
             aria-label="Toggle menu"
             className="inline-flex items-center justify-center rounded-md p-2 

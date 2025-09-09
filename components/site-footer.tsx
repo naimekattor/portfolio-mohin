@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
-import { usePathname } from "next/navigation";
 
 export default function Footer() {
   return (
@@ -18,9 +17,9 @@ export default function Footer() {
               {`<Mohin/>`}
             </div>
             <address className="not-italic text-sm leading-6 ">
-              Villa No. 45, Street 12, Khalifa City,
+              Villa No. 43, Mohakhali C/A,
               <br />
-              Abu Dhabi, United Arab Emirates
+              Dhaka, Bangladesh
             </address>
           </div>
 
@@ -28,7 +27,7 @@ export default function Footer() {
             <div className="text-sm font-semibold ">Get started</div>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/about" className="hover:underline">
+                <Link href="#about" className="hover:underline">
                   About
                 </Link>
               </li>
@@ -68,7 +67,7 @@ export default function Footer() {
               </Link>
               <Link
                 aria-label="LinkedIn"
-                href="#"
+                href="https://www.linkedin.com/in/mohin-uddin00/"
                 className="rounded-md bg-[#55555c] text-white shadow-md p-2 "
               >
                 <Linkedin className="h-4 w-4" />
@@ -78,7 +77,7 @@ export default function Footer() {
         </div>
         <div className="border-t border-white/10">
           <div className="container mx-auto px-4 py-4 text-center text-xs  flex justify-between">
-            <p className="text-sm">Demo@mohin.com</p>
+            <p className="text-sm">miintminii@gmail.com</p>
             <p>© 2025 All rights reserved.</p>
           </div>
         </div>

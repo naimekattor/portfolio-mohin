@@ -7,40 +7,46 @@ import Image from "next/image";
 
 const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://i.ibb.co/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
+    name: "dina_c_woods",
+    username: "@dina_c_woods",
+    body: "What I love most? He makes every project feel effortless. After several collaborations, he’s become someone I fully trust to just get it right without handholding.",
+    img: "https://avatar.vercel.sh/jack",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://i.ibb.co/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
+    name: "jayfettig693",
+    username: "@jayfettig693",
+    body: "I've dealt with developers for years and was admittedly reluctant to deal with someone in the other side of the world, on different time zones, etc. I am so glad that I chose them and can't recommend them high enough. Fantastic.",
+    img: "https://avatar.vercel.sh/jill",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://i.ibb.co/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
+    name: "kyprianou",
+    username: "@kyprianou",
+    body: "Each project benefits from his unique blend of creativity and technical skill, resulting in sites that not only look fantastic but also perform flawlessly. His commitment and attention to detail always ensure the final product goes beyond what I imagined.",
+    img: "https://avatar.vercel.sh/john",
   },
   {
-    name: "Jane",
-    username: "@jane",
-    body: "The quality is beyond expectations. Would highly recommend.",
-    img: "https://i.ibb.co/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
+    name: "Hossian0",
+    username: "@Hossian0",
+    body: "This is not our first project together, and there’s a reason I came back Mohin and his team deliver. Every milestone is handled with care, creativity, and precision. We’re almost at the finish line, and I already know the outcome will be something to be proud of.",
+    img: "https://avatar.vercel.sh/jane",
   },
   {
-    name: "Jenny",
-    username: "@jenny",
-    body: "Amazing work! Great communication and fast delivery.",
-    img: "https://i.ibb.co/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
+    name: "Ali_mounji",
+    username: "@Ali_mounji",
+    body: "Very satisfied with how professional and fast Mihads team is! Did a great piece of work in relatively short time.",
+    img: "https://avatar.vercel.sh/jenny",
   },
   {
-    name: "James",
-    username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://i.ibb.co/WvbmX5Dh/picture-elegant-young-fashion-man-158595-531.jpg",
+    name: "Brixautogroup",
+    username: "@Brixautogroup",
+    body: "The website looks great and is responsive, the edits as we worked were not as good as expected. things got overlooked and I had to ask for fixes more than once. In the end it's all good.",
+    img: "https://avatar.vercel.sh/james",
+  },
+  {
+    name: "Den_raz",
+    username: "@Den_raz",
+    body: "I took a chance hiring someone new, and I’m so glad I did. He delivered beyond what I asked for and made the whole process fun and stress-free. Super happy with how everything turned out!.",
+    img: "https://avatar.vercel.sh/james",
   },
 ];
 
@@ -109,7 +115,7 @@ const Testimonials = () => {
               ))}
             </div>
             <span className="text-[#C6C6C6] text-sm font-semibold">
-              14 REVIEWS
+              362 REVIEWS
             </span>
           </div>
         </div>

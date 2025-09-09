@@ -1,8 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "export",
   images: {
-    domains: ["i.ibb.co"],
+    unoptimized: true, // disable image optimization
+    domains: ["i.ibb.co"], // keep your external domain whitelist
   },
 };
 
